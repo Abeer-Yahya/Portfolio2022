@@ -79,6 +79,7 @@
               share what I learn on my blog.
             </p>
             <a href="#contact" class="btn btn--full margin-right-sm">Contact Me</a>
+            <button class="btn btn--full margin-right-sm download">My Resume <ion-icon name="cloud-download-outline"></ion-icon></button>
           </div>
           <div class="hero-img-box">
             <img src="img/hero.jpg" class="hero-img" alt="" />
@@ -196,46 +197,57 @@
       </div>
        
       </section>
-      
-
-        <section id="contact">
-          <div class="contact-box">
-            <div class="contact-links">
-              <h2>CONTACT</h2>
-              <div class="links">
-                <div class="link">
-                  <a href="https://www.linkedin.com/in/abeer-yahya-257445244/"><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
-                </div>
-                <div class="link">
-                  <a href="https://github.com/Abeer-Yahya" target="_blank"><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
-                </div>
-                <div class="link">
-                  <a href="https://codepen.io/abeer-yahya" target="_blank"><img src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen"></a>
-                </div>
-                <div class="link">
-                  <a href="abeer.yahya799@gmail.com" target="_blank"><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
-                </div>
-              </div>
+      <section id="contact">
+        <div class="container">
+          <div class="wrapper animated bounceInLeft">
+            <div class="social-info">
+              <br><br><br><br><br><br><br><br>
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/abeer-yahya-257445244/" target="_blank"
+                    ><ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/Abeer-Yahya" target="_blank"
+                    ><ion-icon name="logo-github"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://codepen.io/abeer-yahya" target="_blank"
+                    ><ion-icon name="logo-codepen"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto: abeer.yahya799@gmail.com" target="_blank"
+                    ><ion-icon name="mail"></ion-icon
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="contact-form-wrapper">
-              <form>
-                <div class="form-item">
-                  <input type="text" name="sender" required>
-                  <label>Name:</label>
-                </div>
-                <div class="form-item">
-                  <input type="text" name="email" required>
-                  <label>Email:</label>
-                </div>
-                <div class="form-item">
-                  <textarea class="" name="message" required></textarea>
-                  <label>Message:</label>
-                </div>
-                <button class="submit-btn">Send</button>  
+            <div class="contact">
+              <form autocomplete="on">
+                <p>
+                  <label>Name</label>
+                  <input type="text" name="name" required />
+                </p>
+                <p>
+                  <label>Email Address</label>
+                  <input type="email" name="email" required />
+                </p>
+                <p class="full">
+                  <label>Message</label>
+                  <textarea name="message" rows="5" required></textarea>
+                </p>
+  
+                <p class="full">
+                  <button>Submit</button>
+                </p>
               </form>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
     </main>
     <footer>
       <a href="#"><img src="img/AY.png" class="logof" alt="logo"/></a>
