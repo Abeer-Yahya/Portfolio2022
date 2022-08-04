@@ -1,6 +1,7 @@
 # Portfolio2022
 
-A website represent the tech. me, it contains a brief about me, my projects and my skills.
+A Portifolio website represent the tech. me, it contains a brief about me, my projects and my skills.
+I used HTML, CSS, and Bootstrap.
 
 
 WireFrame Link : https://www.figma.com/file/HSSpQmN9HHqV0GrsZazWsr/portfolio-wireframe?node-id=0%3A1
